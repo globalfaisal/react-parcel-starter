@@ -1,0 +1,38 @@
+{
+  "name": "react-parcel-starter",
+  "version": "1.0.0",
+  "description": "A starting template for building React apps with Parcel.js",
+  "main": "src/index.html",
+  "author": "globalfaisal",
+  "license": "MIT",
+  "repository": "https://github.com/globalfaisal/react-parcel-starter.git",
+  "homepage": "https://github.com/globalfaisal/react-parcel-starter#readme",
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "start": "parcel ./src/index.html -p 3000",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.4",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  }
+}

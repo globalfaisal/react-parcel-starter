@@ -1,0 +1,19 @@
+# # Project
+
+.env*
+!.env.example
+
+# ## Generated
+
+# Node
+/node_modules
+
+# Parcel
+/dist
+.cache
+
+# # System
+
+.DS_Store
+.vscode
+.idea
